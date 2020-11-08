@@ -77,8 +77,8 @@ else
 fi
 chmod +x ./$IBM_APP_NAME/d.sh
 
-#cat ./$IBM_APP_NAME/d.sh
-#exit 0
+cat ./$IBM_APP_NAME/d.sh
+exit 0
 
 if [ ! -f "$CF" ]; then
     echo "${BLUE}ibmcloud cf install${END}"
